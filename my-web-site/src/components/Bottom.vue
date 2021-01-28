@@ -1,6 +1,7 @@
 <template>
   <div class="bottom">
-    <span class="bottom__contact-text">morgane.cabrol@conformit.com</span>
+    <div class="bottom__contact-text">morgane.cabrol@conformit.com</div>
+    <div class="bottom__contact-text">581-317-1899</div>
   </div>
 </template>
 
@@ -17,13 +18,13 @@ export default {
 @import '~@/assets/sass/variables.scss';
 .bottom {
   width: 100%;
-  background-color: $color-black;
+  background-color: $color-dark-blue;
   height: 5em;
   align-content: end;
-
+  text-align: center;
+  padding: 1em;
   &__contact-text {
-    color: white;
-    text-align: right
+    color: $color-light-orange;
   }
 }
 </style>

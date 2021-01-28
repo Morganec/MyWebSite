@@ -23,7 +23,10 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss">
+@import '~@/assets/sass/variables.scss';
+.main-app {
+  font-family: $conformit-font-family;
+}
 </style>
 
